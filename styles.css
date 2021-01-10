@@ -1,6 +1,6 @@
 body{
 	margin: 1;
-	background-color: #333;
+	background-color: rgb(122, 122, 122);
 }
 
 .topnav{
@@ -60,7 +60,7 @@ body{
 }
 
 .col:hover{
-	border: 2px solid red;
+	border: 2px solid rgb(0, 68, 255);
 }
 
 .details{
@@ -70,6 +70,6 @@ body{
 
 .col:hover .details{
 	display: block;
-	background-color: aquamarine;
+	background-color: rgb(122, 122, 122);
 }
 
