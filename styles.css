@@ -54,7 +54,7 @@ body{
 	width: 21%;
 	height: 220px;
 	margin-left: 3%;
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -70,6 +70,6 @@ body{
 
 .col:hover .details{
 	display: block;
-	background-color: rgb(122, 122, 122);
+	background-color: rgb(255, 255, 255);
 }
 
