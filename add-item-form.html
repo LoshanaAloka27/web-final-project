@@ -8,38 +8,43 @@
 			background-image: url('img/bg1.jpg');
 			background-size: cover;
 			background-repeat: no-repeat;
+			padding-top: 55px;
 		}
 
 		.formbox{
 			width: 30%;
-			margin: 175px 0 0 35%;
+			margin: auto;
 			background-color: #dddddd;
 			border-radius: 12px;
-		}
-
-		table{
-			margin-left: 15%;
-			font-size: 120%
+			padding: 10px;
+			overflow: auto;
 		}
 
 		.formbox h2{
 			text-align: center;
 		}
 
+		.table tr, td{
+			padding: 5px;
+		}
+
 		.button{
-			background-color: chartreuse;
-			border: #4CAF50;
+			background-color: #333;
+			border: #000000;
 			font-weight: bold;
 		}
 
 		input{
 			width: 100%;
-			height: 20px;
+			height: 25px;
 		}
 
 		.topnav{
 			overflow: hidden;
 			background-color: #333;
+			position: fixed;
+			top: 0;
+			width: 100%;
 		}
 
 		.topnav a{
@@ -71,42 +76,25 @@
 	</div>
 
 	<div class="formbox">
-		<br>
 		<h2>Add Item</h2>
 		<form>
-			<table>
+			<table style="padding: 5px; margin: auto; font-size: 120%;">
 				<tr>
 					<td>Product Name: </td>
 					<td><input type="text" name="product-name"></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
 				</tr>
 				<tr>
 					<td>Product Price: </td>
 					<td><input type="number" name="product-price"></td>
 				</tr>
 				<tr>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
 					<td>Product Image: </td>
 					<td><input type="file" name="product-image"></td>
 				</tr>
 				<tr>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td align="center" colspan="2"><input type="button" value="Submit" class="button"></td>
-				</tr>
-				<tr>
-					
+					<td colspan="2"><input type="button" value="Submit" class="button"></td>
 				</tr>
 			</table>
-			<br>
 		</form>
 	</div>
 
