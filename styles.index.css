@@ -32,11 +32,31 @@ body{
 }
 
 .banner{
-	width: 100%;
+	width: auto;
 	height: 600px;
-	background-image: url("cover.png");
-	background-size: cover;
+	background-image: url("carbg.jpg");
+	background-size: contain;
 	background-repeat: no-repeat;
+	background-color: black;
+	background-position: left;
+	position: relative;
+	padding: 20px;
+}
+
+.bannertext{
+	position: absolute;
+	top: 45%;
+	right: 10%;
+	transform: (-50%, -50%);
+	color: white;
+	background-color: #333;
+	padding: 10px;
+	border-radius: 12px;
+}
+
+.bannertext h1, h3{
+	margin: 0;
+	border: 0;
 }
 
 .category{
@@ -63,10 +83,6 @@ body{
 	background-position: center;
 }
 
-.col:hover{
-	border: 2px solid rgb(0, 68, 255);
-}
-
 .details{
 	display: none;
 	width: 55%;
@@ -74,6 +90,7 @@ body{
 
 .col:hover .details{
 	display: block;
-	background-color: rgb(255, 255, 255);
+	background-color: #333;
+	color: #ddd;
 }
 
