@@ -106,7 +106,7 @@ body{
 /* About Us Page */
 .about-content{
 	margin: auto;
-	background-color: #ddd;
+	background-color: #000000;
 	border-radius: 12px;
 	width: 40%;
 	padding: 10px;
@@ -114,7 +114,7 @@ body{
 }
 
 .about-content h1{
-	color: #000000;
+	color: #ddd;
 	text-align: center;
 }
 /* About Us Page */
@@ -123,13 +123,14 @@ body{
 .partner-content{
 	width: 37%;
 	margin: auto;
-	background-color: #ddd;
+	background-color: #000000;
 	border-radius: 12px;
 	padding: 10px;
 	overflow: auto;
 }
 
-.partner-content h1{
+.partner-content h1,a{
+	color: #ddd;
 	text-align: center;
 }
 /* Partner Page */
