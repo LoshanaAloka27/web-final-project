@@ -138,7 +138,7 @@ body{
 /* Categories */
 .category-heading{
 	margin: auto;
-	background-color: #ddd;
+	background-color: #000;
 	border-radius: 12px;
 	width: 40%;
 	padding: 10px;
@@ -146,7 +146,7 @@ body{
 }
 
 .category-heading h1, h3{
-	color: #000000;
+	color: #ddd;
 	text-align: center;
 	margin: 0;
 	border: 0;
@@ -156,7 +156,7 @@ body{
 /* Manufacturers */
 .manufacturer-heading{
 	margin: auto;
-	background-color: #ddd;
+	background-color: #000;
 	border-radius: 12px;
 	width: 40%;
 	padding: 10px;
@@ -164,7 +164,7 @@ body{
 }
 
 .manufacturer-heading h1,h3{
-	color: #000000;
+	color: #ddd;
 	text-align: center;
 	margin: 0;
 	border: 0;
