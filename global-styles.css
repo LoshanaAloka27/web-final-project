@@ -170,3 +170,26 @@ body{
 	border: 0;
 }
 /* Manufacturers */
+
+/* Vehicle Pages */
+.vehicle-info{
+	margin: auto;
+	padding: 20px;
+	width: 45%;
+	overflow: auto;
+	color: #ddd;
+	background-color: #000;
+	border-radius: 12px;
+}
+
+.vehicle-info td{
+	text-align: center;
+}
+
+.vehicle-img{
+	margin: 0;
+	border: 0;
+	width: auto;
+	height: 400px;
+}
+/* Vehicle Pages */
