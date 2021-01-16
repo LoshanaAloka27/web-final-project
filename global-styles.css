@@ -4,6 +4,11 @@ body{
 	padding-top: 55px;
 	padding-bottom: 120px;
 	background-color: rgb(99, 99, 99);
+	background-image: url('img/samplemodel.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	background-blend-mode: screen;
 }
 
 .topnav{
@@ -40,12 +45,22 @@ body{
 	bottom: 0;
 	position: fixed;
 	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: white;
 }
 
-.footer-content{
-	margin-left: 2.5%;
+.footer a{
 	color: white;
-	padding: 10px;
+	text-align: center;
+	padding: 10px 25px;
+	font-size: 20px;
+	text-decoration-line: underline;
+	font-weight: bold;
+}
+
+.footer h1{
+	padding: 0px 25px;
 }
 /* Global Elements */
 
@@ -58,20 +73,17 @@ body{
 	background-repeat: no-repeat;
 	background-position: left;
 	background-color: black;
-	
 	position: relative;
 	padding: 20px;
 }
 
 .bannertext{
 	position: absolute;
-	top: 45%;
-	right: 10%;
+	top: 42%;
+	right: 5%;
 	transform: (-50%, -50%);
 	color: white;
-	background-color: #333;
-	padding: 10px;
-	border-radius: 12px;
+	font-size: 120%;
 }
 
 .bannertext h1,h2{
