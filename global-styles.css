@@ -56,8 +56,9 @@ body{
 	background-image: url("img/carbg.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-color: black;
 	background-position: left;
+	background-color: black;
+	
 	position: relative;
 	padding: 20px;
 }
@@ -101,7 +102,7 @@ body{
 	width: 21%;
 	height: 220px;
 	margin-left: 3%;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 }
