@@ -2,6 +2,7 @@
 body{
 	margin: 0;
 	padding-top: 55px;
+	padding-bottom: 120px;
 	background-color: rgb(99, 99, 99);
 }
 
@@ -31,6 +32,20 @@ body{
 .topnav a.active{
 	background-color: #4CAF50;
 	color: white;
+}
+
+.footer{
+	overflow: auto;
+	background-color: #333;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+}
+
+.footer-content{
+	margin-left: 2.5%;
+	color: white;
+	padding: 10px;
 }
 /* Global Elements */
 
