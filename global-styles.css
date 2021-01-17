@@ -147,22 +147,6 @@ body{
 }
 /* About Us Page */
 
-/* Partner Page */
-.partner-content{
-	width: 37%;
-	margin: auto;
-	background-color: #000000;
-	border-radius: 12px;
-	padding: 10px;
-	overflow: auto;
-}
-
-.partner-content h1,a{
-	color: #ddd;
-	text-align: center;
-}
-/* Partner Page */
-
 /* Categories */
 .category-heading{
 	margin: auto;
