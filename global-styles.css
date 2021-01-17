@@ -220,4 +220,12 @@ body{
 	width: auto;
 	height: 400px;
 }
+
+.search-btn{
+	width: 40%;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	background-color: #333;
+}
 /* Vehicle Pages */
